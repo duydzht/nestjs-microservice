@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+user-service/node_modules/
+permission-service/node_modules/
+gateway/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+#data
+data/
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker files
+docker-compose.override.yml
+
+# Ignore Docker containers' volumes
+docker-volumes/
+
+# Ignore idea files (for IntelliJ)
+.idea/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore optional yarn files
+.yarn-integrity
+.yarn/
+.pnp.*
